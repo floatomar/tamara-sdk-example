@@ -1,0 +1,16 @@
+schema: 1
+apps:
+- id: tamara-sdk-example
+  name: Tamara Sdk Example
+  icon: ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+  enabled: true
+  run:
+    entry: lib/main.dart
+    dart_defines: {}
+  android:
+    package_id: co.tamara.tamara_sdk_example
+  ios:
+    bundle_id: com.demo.tamaraflutter
+    app_store_id: ''
+  keys: {}
+  plugins: {}

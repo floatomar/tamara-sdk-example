@@ -1,0 +1,17 @@
+schema: 1
+id: tamara-sdk-example
+name: Tamara Sdk Example
+defaults:
+  package_prefix: co.tamara.
+  version: 1.0.0+1
+apps_file: .fabrivo/apps.yaml
+keys:
+  directory: .fabrivo/keys
+  sources: {}
+  bindings:
+    default: {}
+plugins: {}
+adapter: flutter
+apps: []
+env:
+  GOOGLE_PLAY_DEVELOPER_ID: '1'
